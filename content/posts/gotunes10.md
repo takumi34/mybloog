@@ -1,5 +1,5 @@
 ---
-title: "Gotunes10"
+title: "Golang10周年記念パーティーに行ってきた話"
 date: 2019-11-12T08:41:11+09:00
 draft: false
 toc: false
