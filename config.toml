@@ -56,12 +56,15 @@ disqusShortname = "underground-idol-blog"
     url = "https://twitter.com/untergrund_idol"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
-
-  [[params.social]]
     name = "github"
     url = "https://github.com/takumi34"
+
+  [[params.social]]
+    name = "codepen"
+    url = "https://codepen.io/"
+  [[params.social]]
+    name = "qiita"
+    url = "https://qiita.com/"
 
 [menu]
 
