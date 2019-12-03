@@ -37,7 +37,7 @@ disqusShortname = "underground-idol-blog"
   themeColor = "#494f5c"
 
   homeSubtitle = "Underground-idol's Blog"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>  <a href="https://takumi34.github.io/privacy-policy">Privacy Policy</a>'
   bgImg = "https://cdn.pixabay.com/photo/2014/09/10/00/59/utah-440520_1280.jpg"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
