@@ -13,6 +13,7 @@ date = "2019/06/27"
 
 
 ## COMPUTER SKILLS  
+* 応用情報処理技術者
 * C, C++, Python3, Ruby, Java, Go, Swift  
 * Spring Boot, Ruby on Rails  
 * HTML, CSS, Vue.js  
