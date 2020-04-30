@@ -16,7 +16,6 @@ tags:
 
 ### 実施した内容
 * [コードはここに置いてある](https://github.com/takumi34/nlp_100)
-
 #### 00
 * コード
 ```py
@@ -27,6 +26,7 @@ print('stressed'[::-1])
 desserts
 ```
 #### 01
+
 * コード
 ```py
 a = 'パタトクカシーー'
