@@ -9,9 +9,7 @@ tags:
   - "Line"
 ---
 
-## Line Dev Day とは
-
-{{< figure src="/images/line-dev-day.jpg" title="LINE DEV DAY会場" class="center" width="320" height="640" >}}
+## Line Dev Day とは{{< figure src="/images/line-dev-day.jpg" title="LINE DEV DAY会場" class="center" width="320" height="640" >}}
 
 - 正式名称は LINE DEVELOPER DAY、LINE 社のカンファレンスで 2015 年から開催されている。今年は 11/21-11/22 にお台場で開催された。私は今回両日ともに参加した。私は以前LINEにエンジニアインターンに参加していたということもあってLine Dev Dayに参加したいと思っていた。
 
