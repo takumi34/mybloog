@@ -68,7 +68,7 @@ split -n 3 -d popular-names.txt split-
 cut -f 1 popular-names.txt | sort | uniq
 ```
 
-* uniqをかける前にsortする。C++でやりなれた操作。（uniqsortを忘れがちなので、そのマクロを組んでいるぐらい笑。）
+* uniqをかける前にsortする。C++でやりなれた操作。（uniqueする前にsortを忘れがちなので、そのマクロを組んでいるぐらい笑。）
 
 #### 18
 * コード
