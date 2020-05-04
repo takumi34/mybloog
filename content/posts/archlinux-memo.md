@@ -109,6 +109,17 @@ fcitx-autostart
 * 以上のバージョンを合わせないとうまくインストールができない。特に、kindleのインストーラーのバージョンを色々試した結果、1-17-44170ならうまく入った。
 * Ubuntuでも同じことをやったのだけど、バージョンを忘れたので、何度も試すことになったので、これもメモしておく。
 
+### wifi設定
+* これもArchwikiを読む。[NetworkManager](https://wiki.archlinux.jp/index.php/NetworkManager)
+* nmcliでコマンドが打てる。
+```bash
+nmcli dev wifi connect <name> password <password>
+```
+* xfceだと以下をインストールしておく。[ここで紹介されている](https://wiki.archlinux.jp/index.php/NetworkManager#Xfce)
+```bash
+pacman -S network-manager-applet xfce4-notifyd gnome-keyring
+``` 
+
 ## まとめ
 
 * 環境構築メモとして、これを書き残しておく。
