@@ -128,7 +128,7 @@ pacman -S network-manager-applet xfce4-notifyd gnome-keyring
 * Arch wikiは凄い。ほんとに色々載っているので非常に助かる。   
 
 
-***「Arch Linux最高。」という言葉で締めくくりたい。万人におすすめできるOSである。***
+***「[Arch Linux最高。](https://wiki.archlinux.org/index.php/Arch_is_the_best)」という言葉で締めくくりたい。万人におすすめできるOSである。***
 
 
 
