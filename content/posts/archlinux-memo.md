@@ -28,7 +28,7 @@ tags:
 * gdiskでパーティションを切った。
 
 ### フォーマット
-* 普EFIはFAT32で、rootはext4でフォーマット。
+* EFIはFAT32で、rootはext4でフォーマット。
 ```bash
 mkfs.vfat -F32 /dev/nvme0n1
 mkfs.ext4 /dev/nvme0n2
@@ -125,9 +125,10 @@ pacman -S network-manager-applet xfce4-notifyd gnome-keyring
 * 環境構築メモとして、これを書き残しておく。
 * 今回、Arch Linuxの環境構築をして、デスクトップOSの仕組みについて詳しくなった（気がする）。
 * Ubuntuを使っていたときはインストール時から様々な環境がすでに込み込みなので、特に何も考えずすぐ使えるのだけど、Arch Linuxは初めはほんとに何も入ってない。なので、自分で好きなものをどんどん入れていってカスタマイズしていくので、裏側でどういうものが動いているかというのがよく分かる。
+* Arch wikiは凄い。ほんとに色々載っているので非常に助かる。   
 
 
-* Arch Linux最高。という言葉で締めくくりたい。おすすめできるOSである。
+***「Arch Linux最高。」という言葉で締めくくりたい。万人におすすめできるOSである。***
 
 
 
