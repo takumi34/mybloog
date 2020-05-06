@@ -33,7 +33,7 @@ with open('jawiki-country.json', mode='r', encoding='utf-8') as f:
 * これは以後の課題でも使うので、以下のようにモジュールにしておく。
 
 
-ch2_func.py
+ch3_func.py
 ```py
 import json
 
@@ -48,11 +48,11 @@ def extract_uk_text():
 #### 31
 * コード
 ```py
-from modules import ch2_func
+from modules import ch3_func
 
 import re
 
-text = ch2_func.extract_uk_text()
+text = ch3_func.extract_uk_text()
 pattern = '\[\[Category:.*?\]\]'
 results = re.findall(pattern,text)
 
@@ -79,11 +79,11 @@ for i in results:
 #### 32
 * コード
 ```py
-from modules import ch2_func
+from modules import ch3_func
 
 import re
 
-text = ch2_func.extract_uk_text()
+text = ch3_func.extract_uk_text()
 pattern = '\[\[Category:(.*?)(?:\|.*)?\]\]'
 results = re.findall(pattern,text)
 
@@ -108,11 +108,11 @@ G8加盟国
 #### 33
 * コード
 ```sh
-from modules import ch2_func
+from modules import ch3_func
 
 import re
 
-text = ch2_func.extract_uk_text()
+text = ch3_func.extract_uk_text()
 pattern = '(==+)(.*?)==+'
 results = re.findall(pattern, text)
 
@@ -125,11 +125,11 @@ for i in results:
 #### 34
 * コード
 ```sh
-from modules import ch2_func
+from modules import ch3_func
 
 import re
 
-text = ch2_func.extract_uk_text()
+text = ch3_func.extract_uk_text()
 pattern = '\[\[ファイル:(.*?)(?:\|.*)?\]\]'
 results = re.findall(pattern,text)
 
