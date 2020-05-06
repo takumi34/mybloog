@@ -1,6 +1,6 @@
 #!/bin/fish
 hugo
-cd pulic
+cd pulic/
 git add .
 git commit -m"update"
 git push
