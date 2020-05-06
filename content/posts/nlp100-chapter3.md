@@ -9,13 +9,13 @@ tags:
   - 'Regex'
 ---
 
- * [自然言語処理100本ノック2020](https://nlp100.github.io/ja/)の第3章をやる。前編なので30か34まで。
+ * [自然言語処理100本ノック2020](https://nlp100.github.io/ja/)の第3章をやる。前編なので20から24まで。
  * 今回は正規表現の回。
  * 正規表現は便利なので簡単なのものはよく書くけれど、やっぱり難しい。プログラム合成で正規表現を合成してほしい。
 
 ### 実施した内容
 * [コードはここに置いてある](https://github.com/takumi34/nlp_100)
-#### 30
+#### 20
 * コード
 ```py
 import json
@@ -45,7 +45,7 @@ def extract_uk_text():
                 return article['text']
 ```
 
-#### 31
+#### 21
 * コード
 ```py
 from modules import ch3_func
@@ -76,7 +76,7 @@ for i in results:
 * 正規表現登場。
 * findallは便利だ。
 
-#### 32
+#### 22
 * コード
 ```py
 from modules import ch3_func
@@ -105,7 +105,7 @@ G8加盟国
 
 * '|*'みたいなのが付いているのを正規表現の'?:'で外した。
 
-#### 33
+#### 23
 * コード
 ```sh
 from modules import ch3_func
@@ -122,7 +122,7 @@ for i in results:
     print('%d: %s' % (level, section_name))
 ```
 
-#### 34
+#### 24
 * コード
 ```sh
 from modules import ch3_func
@@ -136,7 +136,7 @@ results = re.findall(pattern,text)
 for i in results:
   print(i)
 ```
-* 32とやってることは同じ
+* 22とやってることは同じ
 
 ## 感想
 
