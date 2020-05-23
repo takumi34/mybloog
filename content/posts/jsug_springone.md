@@ -20,7 +20,9 @@ tags:
 - Spring One では Kotlin や Azure Spring Cloud など様々なセッションを聞いた。特に印象に残ったセッションとして Spring Initializr のセッションがあった( [Creating "The Second Best Place on the Internet" with Spring Initializr](https://www.slideshare.net/Pivotal/creating-the-second-best-place-on-the-internet-with-spring-initializr/Pivotal/creating-the-second-best-place-on-the-internet-with-spring-initializr))。この内容をもとに JSUG で発表をした。
 - 内容としては、Spring Initializr の発展の歴史と Spring Initlizr のカスタマイズの話である。
 - デモコードは以下にある。README を読めば大体分かるはず。(https://github.com/takumi34/custom-spring-initializr)
-- [発表したスライド](https://www.slideshare.net/apkiban/spring-initializr)
+
+* [発表したスライド](https://www.slideshare.net/apkiban/spring-initializr)
+
 
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/t4XKHDRMrhP0Uy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/apkiban/spring-initializr" title="Spring Initializrをハックする-カスタマイズを通してその内部実装を覗く" target="_blank">Spring Initializrをハックする-カスタマイズを通してその内部実装を覗く</a> </strong> from <strong><a href="https://www.slideshare.net/apkiban" target="_blank">apkiban</a></strong> </div>
