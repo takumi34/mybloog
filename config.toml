@@ -63,8 +63,8 @@ disqusShortname = "underground-idol-blog"
     name = "codepen"
     url = "https://codepen.io/"
   [[params.social]]
-    name = "qiita"
-    url = "https://qiita.com/"
+    name = "kaggle"
+    url = "https://www.kaggle.com/undergroundidol"
 
 [menu]
 
