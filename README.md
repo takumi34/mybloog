@@ -16,5 +16,10 @@ $ git add . && git commit -m "add sth"
 $ git push
 ```
 
+### How to post a new file
+
+```bash
+hugo new posts/sample.md
+```
 
 
