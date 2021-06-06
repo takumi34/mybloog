@@ -173,7 +173,7 @@ public class SampleLogger {
 * ログ出力のテストクラス
 
 
-LoggerTest.class
+SampleLoggerTest.class
 ```java
 package com.example.logtest;
 
@@ -203,7 +203,7 @@ import static org.mockito.Mockito.verify;
 
 
 @SpringBootTest
-public class LoggerTest {
+public class SampleLoggerTest {
 
     @Autowired
     private SampleLogger sampleLogger;
