@@ -12,14 +12,19 @@ date = "2021-04-01"
 
 
 
-## COMPUTER SKILLS
-* 応用情報処理技術者試験合格
-* 情報安全確保支援士試験合格（未登録）
-* G検定合格
+## CERTIFICATIONS
+* 応用情報処理技術者試験 合格（2019/12）
+* 情報安全確保支援士試験 合格（未登録）（2020/12）
+* G検定 合格（2025/9）
 * [AWS Certified Solutions Architect - Professional](https://www.credly.com/badges/ffc2b5bb-dcb5-49ce-8ff2-8325a255fb3b/)
+  - Date issued: March 29, 2021
+  - Expired: March 29, 2024
 
 
-* C, C++, Python3, Ruby, Java, Go, Swift  
-* Spring Boot, Ruby on Rails  
-* HTML, CSS, Vue.js, Angular  
-* AWS, Docker, k8s  
+
+## TECHNICAL SKILLS
+* **Backend Development**: Java (Spring Boot), Ruby (Rails), Python, Go
+* **Frontend Development**: HTML/CSS, Vue.js, Angular
+* **Cloud & Infrastructure**: AWS, Docker, Kubernetes
+* **Languages**: C, C++, Swift
+
