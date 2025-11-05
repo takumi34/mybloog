@@ -1,25 +1,20 @@
 
-## The world’s fastest framework for building websites. https://gohugo.io
+## The world's fastest framework for building websites. https://gohugo.io
 
-### Build command
-```bash
-$ hugo
-```
-
-### How to publish a blog
-```bash
-$ cd pubic
-$ git add . && git commit -m "add sth"
-$ git push
-$ cd ..
-$ git add . && git commit -m "add sth"
-$ git push
-```
-
-### How to post a new file
+### Using Makefile
 
 ```bash
-hugo new posts/sample.md
+# Build the site
+make build
+
+# Run development server
+make serve
+
+# Create new post
+make new POST=my-post-name
+
+# Publish everything (build + GitHub Pages + source)
+make publish
 ```
 
 

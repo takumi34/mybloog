@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-date = "2021/04/01"
+date = "2021-04-01"
 +++
 
 
@@ -12,9 +12,10 @@ date = "2021/04/01"
 
 
 
-## COMPUTER SKILLS  
+## COMPUTER SKILLS
 * 応用情報処理技術者試験合格
-* 情報安全確保支援士試験合格
+* 情報安全確保支援士試験合格（未登録）
+* G検定合格
 * [AWS Certified Solutions Architect - Professional](https://www.credly.com/badges/ffc2b5bb-dcb5-49ce-8ff2-8325a255fb3b/)
 
 

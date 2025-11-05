@@ -10,8 +10,6 @@ hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content languag
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-153631856-1"
-disqusShortname = "underground-idol-blog"
 
 [author]
   name = "chika"
@@ -52,16 +50,9 @@ disqusShortname = "underground-idol-blog"
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/untergrund_idol"
-
-  [[params.social]]
     name = "github"
     url = "https://github.com/takumi34"
 
-  [[params.social]]
-    name = "codepen"
-    url = "https://codepen.io/"
   [[params.social]]
     name = "kaggle"
     url = "https://www.kaggle.com/undergroundidol"

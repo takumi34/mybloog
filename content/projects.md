@@ -1,6 +1,6 @@
 +++
 title = "Projects"
-date = "2019/10/10"
+date = "2019-10-10"
 +++
 
 # 発表資料
@@ -14,14 +14,18 @@ date = "2019/10/10"
 * [Deep Dive into the Linux Kernel - メモリ管理におけるCompaction機能について](https://youtu.be/brrm328XItM?t=13629)
 
 # 作ったもの
+### Stamp Generator
+* Slackスタンプ風の画像を生成できます
+[stamp-gen](https://takumi34.github.io/stamp-gen/)
+
 ### Portfolio Template
-* a terminal like portfolio  
+* a terminal like portfolio
 [template](https://takumi34.github.io/portfolio_like_terminal/index.html)
 
 ### Janken
-* you can play here  
+* you can play here
 [janken](https://takumi34.github.io/janken/)
 
 ### Levenshtein Distance(Elm)
-* you can calculate it here  
-[Levenshtein Distance](https://takumi34.github.io/elm-levenstein/) 
+* you can calculate it here
+[Levenshtein Distance](https://takumi34.github.io/elm-levenstein/)
