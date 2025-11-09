@@ -1,0 +1,80 @@
+<!-- Custom splash screen -->
+<script>
+/**
+ * Splash Screen Animation Module
+ * Displays a welcome animation on first page load per session
+ */
+(function() {
+  'use strict';
+
+  // Configuration constants
+  var CONFIG = {
+    STORAGE_KEY: 'splashShown',
+    ANIMATION_DURATION: 3500,
+    SPLASH_ID: 'splash-screen',
+    HIDE_CLASS: 'hide',
+    WELCOME_TEXT: 'Welcome to chika\'s blog'
+  };
+
+  /**
+   * Check if splash screen was already shown in current session
+   * @returns {boolean}
+   */
+  function wasAlreadyShown() {
+    try {
+      return sessionStorage.getItem(CONFIG.STORAGE_KEY) === 'true';
+    } catch (e) {
+      // sessionStorage might not be available
+      return false;
+    }
+  }
+
+  /**
+   * Create splash screen DOM element
+   * @returns {HTMLElement}
+   */
+  function createSplashElement() {
+    var splash = document.createElement('div');
+    splash.id = CONFIG.SPLASH_ID;
+    splash.innerHTML =
+      '<div class="splash-ball"></div>' +
+      '<div class="splash-text">' + CONFIG.WELCOME_TEXT + '</div>';
+    return splash;
+  }
+
+  /**
+   * Mark splash as shown and hide it
+   * @param {HTMLElement} splashElement
+   */
+  function hideSplash(splashElement) {
+    splashElement.classList.add(CONFIG.HIDE_CLASS);
+    try {
+      sessionStorage.setItem(CONFIG.STORAGE_KEY, 'true');
+    } catch (e) {
+      // Silently fail if sessionStorage is not available
+    }
+  }
+
+  /**
+   * Initialize and display splash screen
+   */
+  function initSplash() {
+    if (wasAlreadyShown()) {
+      return;
+    }
+
+    var splash = createSplashElement();
+
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.insertBefore(splash, document.body.firstChild);
+
+      setTimeout(function() {
+        hideSplash(splash);
+      }, CONFIG.ANIMATION_DURATION);
+    });
+  }
+
+  // Initialize splash screen
+  initSplash();
+})();
+</script>
